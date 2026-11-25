@@ -2,14 +2,11 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog
 from pathlib import Path
 
-# AI acknowledgement: AI helped with the file count/record handling and the
-# grade, percentage, and highest/lowest calculations. I reviewed and adapted it.
-
-# prompts used:
-# How can I calculate a student's percentage and grade?
-# How can I save a changed student list with its count on the first line?
-# How can I find the student with the highest or lowest total?
-# The data file is expected at studentMarks.txt beside this program.
+# AI acknowledgement:
+# Prompts used:
+# - What is the difference between total marks and percentage?
+# - How does updating a text file work?
+# - How can I compare two student totals?
 
 DATA_FILE = Path(__file__).parent / "studentMarks.txt"
 
