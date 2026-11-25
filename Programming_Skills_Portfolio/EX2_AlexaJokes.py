@@ -2,7 +2,7 @@ from pathlib import Path
 import random
 import tkinter as tk
 
-# AI acknowledgement: I created this app and used OpenAI ChatGPT for help with
+# AI acknowledgement: I created this app and used AI for help with
 # loading jokes safely and splitting each joke at its first question mark.
 # Prompts used: "How can I handle a missing or empty joke file?"
 # "How can I split a joke at its first question mark in Python?"
